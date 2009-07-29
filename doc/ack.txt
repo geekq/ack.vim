@@ -35,6 +35,9 @@ with the line number of the occurrence, once for each occurrence.  <Enter> on
 a line in this window will open the file, and place the cursor on the matching
 line.
 
+See |quickfix| and |:cnext| for more information about efficient
+navigation in Quickfix window.
+
 :AckG [options] {file_pattern} [{directory}]                           *:AckG*
 
     ack is also great for searching files by name, e.g. `ack -g user`
