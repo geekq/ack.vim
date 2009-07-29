@@ -35,4 +35,23 @@ with the line number of the occurrence, once for each occurrence.  <Enter> on
 a line in this window will open the file, and place the cursor on the matching
 line.
 
+:AckG [options] {file_pattern} [{directory}]                           *:AckG*
+
+    ack is also great for searching files by name, e.g. `ack -g user`
+    will find all files, which have /user/ in its name. So this plugin
+    can also act as an alternative to fuzzyfinder.vim
+    :AckG user
+    does the search and lists the files in the |Quickfix| window. Move
+    with 'j', 'k' and press <Enter> to open the file.
+    (Feature by Vladimir Dobriakov http://blog.geekq.net)
+
+You can also map the commands in your .vimrc with
+
+nmap <silent> <unique> <Leader>a :Ack
+nmap <silent> <unique> <Leader>g :AckG
+
+Then use `\g user` in |Normal-mode| to search for files, that contain
+`user` in its name or path or use `\a hello` to search for `hello` in
+file content.
+
 See http://search.cpan.org/~petdance/ack/ack for more information.
