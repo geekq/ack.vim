@@ -60,7 +60,7 @@ afterwards.
 
 ## Usage 
 
-For detailed usage information see the [help](doc/ack.txt) or 
+For detailed usage information see the [help](./doc/ack.txt) or 
 type `:help ack` in vim.
 
 ## Authors
