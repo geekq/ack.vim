@@ -60,8 +60,8 @@ afterwards.
 
 ## Usage 
 
-For detailed usage information see the [help](./doc/ack.txt) or 
-type `:help ack` in vim.
+For detailed usage information type `:help ack` in vim or read the 
+[help online](http://github.com/geekq/ack.vim/tree/master/doc/ack.txt).
 
 ## Authors
 
