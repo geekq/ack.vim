@@ -1,8 +1,14 @@
 *ack.txt*   Plugin that integrates ack with Vim
 
 ==============================================================================
-Author:  Antoine Imbert <antoine.imbert+ackvim@gmail.com>         *ack-author*
-License: Same terms as Vim itself (see |license|)
+License: Same terms as Vim itself (see |license|)                 *ack-author*
+Authors: 
+
+    All the blame for the current version should go 
+    to Vladimir Dobriakov (http://blog.geekQ.net).
+
+    All the praise for the original idea should go to 
+    Antoine Imbert and Miles Z. Sterrett.
 
 ==============================================================================
 INTRODUCTION                                                             *ack*
@@ -57,4 +63,6 @@ Then use `\g user` in |Normal-mode| to search for files, that contain
 `user` in its name or path or use `\a hello` to search for `hello` in
 file content.
 
-See http://search.cpan.org/~petdance/ack/ack for more information.
+See http://search.cpan.org/~petdance/ack/ack and
+http://betterthangrep.com/ for more information.
+
