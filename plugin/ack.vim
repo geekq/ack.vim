@@ -26,3 +26,4 @@ command! -nargs=* -complete=file LAck    call Ack("lgrep!",   "%f:%l:%m", <q-arg
 command! -nargs=* -complete=file LAckAdd call Ack("lgrepadd!","%f:%l:%m", <q-args>)
 
 command! -nargs=* -complete=file AckG    call Ack("grep! -g", "%f", <q-args>)
+command! -nargs=* -complete=file AckGAll call Ack("grep! --all -g", "%f", <q-args>)
