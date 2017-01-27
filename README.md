@@ -58,7 +58,17 @@ Otherwise, the file ack.vim goes in ~/.vim/plugin, and the ack.txt file belongs 
 afterwards.
 
 
-## Usage 
+## Usage
+
+My favorite keyboard mapping (put into ~/.vimrc):
+
+```
+" Open file by entering a file name pattern
+nmap <unique> <C-O> :AckGAll<Space>
+" Search in files
+nmap <unique> <C-I> :Ack<Space>
+cabbr ack Ack
+```
 
 For detailed usage information type `:help ack` in vim or read the 
 [help online](http://github.com/geekq/ack.vim/tree/master/doc/ack.txt).
